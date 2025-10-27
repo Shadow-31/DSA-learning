@@ -1,0 +1,16 @@
+// Contributor: Debora0Martins
+// Programa para inverter uma string em Java
+
+public class ReverseString {
+    public static void main(String[] args) {
+        String original = "Hacktoberfest";
+        String invertida = "";
+
+        for (int i = original.length() - 1; i >= 0; i--) {
+            invertida += original.charAt(i);
+        }
+
+        System.out.println("String original: " + original);
+        System.out.println("String invertida: " + invertida);
+    }
+}
