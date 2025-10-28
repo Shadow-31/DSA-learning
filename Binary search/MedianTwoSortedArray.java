@@ -59,6 +59,8 @@ public class MedianTwoSortedArray {
   }
 
   public static void main(String[] args) {
-
+    int[] nums1 = {1,2};
+    int[] nums2 = {3,4};
+    System.out.println("Median of two sorted arrays : " + findMedianSortedArrays(nums1, nums2));
   }
 }
